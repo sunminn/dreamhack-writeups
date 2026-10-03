@@ -9,9 +9,7 @@ https://dreamhack.io/wargame/challenges/6
 
  
 ## 풀이과정
-1. 풀이 방향성
- 
- 쿠키로 인증 상태를 관리하기 때문에 패킷을 분석한 후 쿠키를 확인해봐야겠다고 생각했다.
+쿠키로 인증 상태를 관리하기 때문에 패킷을 분석한 후 쿠키를 확인해봐야겠다고 생각했다.
 
 
 <img width="985" height="529" alt="스크린샷 2026-10-01 오후 3 26 16" src="https://github.com/user-attachments/assets/066d0513-68b0-44df-b543-9edec88d0f25" />
@@ -31,4 +29,7 @@ https://dreamhack.io/wargame/challenges/6
 
 ## 취약점 정리
  1. 서버가 세션을 서버 측에서 검증하지않고 쿠키 값만 신뢰
- 2. 대응법(서버 측 세션 저장 + 랜덤 세션 ID)
+
+## 대응법
+ 1. 서버 측 세션 저장
+ 2. 랜덤 세션 ID
