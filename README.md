@@ -20,7 +20,8 @@
 
 | 문제명 | 카테고리 | 난이도 | 핵심 취약점 | 링크 |
 |---|---|---|---|---|
-| cookie | web | B4 (입문) | 클라이언트 쿠키 값 기반 인증 (세션 미검증) | [cookie.md](./web/cookie.md) |
+| cookie | web | B4 | 클라이언트 쿠키 값 기반 인증 | [cookie.md](./web/cookie.md) |
+| random-test | web | B4 | 접두사 비교기반 논리 취약점 | [random-test.md](./web/random-test.md) |
 
 ## ✍️ 라이트업 작성 형식
 
